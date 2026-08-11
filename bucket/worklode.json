@@ -1,0 +1,21 @@
+{
+    "version": "0.5.1",
+    "description": "Work tracker CLI (lode) for Sunstone Institute",
+    "homepage": "https://github.com/sunstoneinstitute/worklode",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sunstoneinstitute/worklode/releases/download/v0.5.1/lode_0.5.1_windows_amd64.zip",
+            "hash": "a6efe314d8332b70f9b8fb28aadebed317f02da7dc0aa0831aff8f866363d2a6",
+            "bin": "lode.exe"
+        }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/sunstoneinstitute/worklode/releases/download/v$version/lode_$version_windows_amd64.zip"
+            }
+        }
+    }
+}
